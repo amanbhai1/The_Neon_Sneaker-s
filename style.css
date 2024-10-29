@@ -10,7 +10,9 @@ body {
     width: 100%;
 }
 
-main,
+main{
+    height: 100%;
+}
 .main {
     width: 100%;
     height: 100%;
@@ -177,7 +179,7 @@ section {
 .chooseColor {
     color: #d8d7aa;
     background-color: #eaebd207;
-    height: 20%;
+    height: 100%;
 }
 
 .colorOption {
@@ -255,13 +257,77 @@ section {
 .Cop-12 {
     background-color: turquoise;
 }
+
+.Cop-13 {
+    background-color: yellowgreen;
+}
+
+.Cop-14 {
+    background-color: indianred;
+}
+
+.Cop-15 {
+    background-color: indigo;
+}
+
+.Cop-16 {
+    background-color: ivory;
+}
+
+.Cop-17 {
+    background-color: olive;
+}
+
+.Cop-18 {
+    background-color: orchid;
+}
+
+.Cop-19 {
+    background-color: orange;
+}
+
+.Cop-20 {
+    background-color: palegoldenrod;
+}
+
+.Cop-21 {
+    background-color: palegreen;
+}
+
+.Cop-22 {
+    background-color: paleturquoise;
+}
+
+.Cop-23 {
+    background-color: papayawhip;
+}
+
+.Cop-24 {
+    background-color: plum;
+}
+
+.Cop-25 {
+    background-color: pink;
+}
+
+.Cop-26 {
+    background-color: peachpuff;
+}
+
+.Cop-27 {
+    background-color: slateblue;
+}
+
+.Cop-28 {
+    background-color: lightgoldenrodyellow;
+}
 /*box 1 section > neonText class ---->*/
 
 .neonText {
     font-size: 40px;
     font-weight: 700;
     font-family: cursive;
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: flex;
     align-items: center;

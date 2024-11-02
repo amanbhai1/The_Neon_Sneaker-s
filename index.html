@@ -15,9 +15,12 @@
     <link href="https://fonts.cdnfonts.com/css/play-time" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/betteroutline" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/kallissa-signature" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Pacifico&family=Rubik+Scribble&family=Workbench:BLED,SCAN@0..100,-27&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Mochiy+Pop+P+One&family=Pacifico&family=Rubik+Scribble&family=Workbench:BLED,SCAN@0..100,-27&display=swap" rel="stylesheet">
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,7 +34,11 @@
                 <li><a href="blog.html">Floro Noen</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact us</a></li>
+                <i id="close" onclick="closeSidebar()" ob class="fa fa-times" aria-hidden="true"></i>
             </ul>
+            <div id="mobile">
+                <i onclick="openSidebar()" id="bar" class="fa fa-bars" aria-hidden="true"></i>
+            </div>
         </div>
     </div>
     <main>
@@ -48,7 +55,7 @@
             <section class="box2">
                 
                 <div class="fontstyle">
-                    <h2 align=c enter>Choose Style !</h2>
+                    <h2 align=center>Choose Style !</h2>
                     <div class="styleOption">
                         <div class="style-btn">Rubik</div>
                         <div class="style-btn">Pacifico</div>
@@ -64,7 +71,7 @@
 
                 </div>
                 <div class="chooseColor">
-                    <h2 align=c enter>Choose Color !</h2>
+                    <h2 align=center>Choose Color !</h2>
                     <div class="colorOption">
                         <div class="color-btn Cop-1"></div>
                         <div class="color-btn Cop-2"></div>
@@ -94,8 +101,6 @@
                         <div class="color-btn Cop-26"></div>
                         <div class="color-btn Cop-27"></div>
                         <div class="color-btn Cop-28"></div>
-
-
                     </div>
                 </div>
             </section>

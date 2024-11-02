@@ -10,18 +10,19 @@ body {
     width: 100%;
 }
 
-main{
-    height: 100%;
+main {
+    height: auto;
+
 }
+
 .main {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #0d1a2e;
     display: flex;
 }
 
-
-#header{
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,46 +30,44 @@ main{
     background: #1a1a1aef;
     box-shadow: 0 5px 15px rgba(100, 98, 98, 0.6);
     z-index: 999;
-    position:relative;
-    top:0;
+    position: relative;
+    top: 0;
     left: 0;
 }
 
-#header a img{
+#header a img {
     height: 60px;
 }
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
-#navbar li{
+#navbar li {
     list-style: none;
     padding: 0 10px;
     position: relative;
     transition: 0.3s ease;
 }
 
-#navbar li a{
+#navbar li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    color:#ffffff;
+    color: #ffffff;
     transition: 0.3s ease;
 }
 
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a.active {
     color: #088178;
-
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
@@ -86,8 +85,6 @@ section {
 .box2 {
     background-color: #00000025;
 }
-
-/*seach text div start --- > */
 
 .searchtext {
     height: auto;
@@ -131,11 +128,8 @@ section {
 }
 
 .submitIcon:hover {
-    box-shadow: 2px 2px 4px rgb(13, 100, 230);
     box-shadow: 0 0 10px rgb(13, 100, 230), 0 0 20px rgb(13, 100, 230), 0 0 30px rgb(13, 100, 230);
 }
-
-/*font style div start  here ---- > */
 
 .fontstyle {
     color: #fcfaa5;
@@ -169,22 +163,30 @@ section {
     transition: 0.3s;
 }
 
+#close {
+    display: none;
+}
+
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
 .style-btn:hover {
-    /* box-shadow: 2px 2px 4px white; */
     box-shadow: 0 0 5px white, 0 0 5px white, 0 0 20px white;
     transform: scale(1.03);
 }
-
-/* Choose spacific color div start here ---> */
 
 .chooseColor {
     color: #d8d7aa;
     background-color: #eaebd207;
     height: 100%;
+    align-items: center;
 }
 
 .colorOption {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,123 +208,38 @@ section {
 }
 
 .color-btn:hover {
-    /* box-shadow: 2px 2px 4px white; */
     box-shadow: 0 0 5px currentColor, 0 0 5px white, 0 0 20px white;
     transform: scale(1.03);
 }
 
-.Cop-1 {
-    background-color: red;
-}
-
-.Cop-2 {
-    background-color: blue;
-}
-
-.Cop-3 {
-    background-color: blueviolet;
-}
-
-.Cop-4 {
-    background-color: green;
-}
-
-.Cop-5 {
-    background-color: yellow;
-}
-
-.Cop-6 {
-    background-color: violet;
-}
-
-.Cop-7 {
-    background-color: wheat;
-}
-
-.Cop-8 {
-    background-color: white;
-}
-
-.Cop-9 {
-    background-color: teal;
-}
-
-.Cop-10 {
-    background-color: tomato;
-}
-
-.Cop-11 {
-    background-color: thistle;
-}
-
-.Cop-12 {
-    background-color: turquoise;
-}
-
-.Cop-13 {
-    background-color: yellowgreen;
-}
-
-.Cop-14 {
-    background-color: indianred;
-}
-
-.Cop-15 {
-    background-color: indigo;
-}
-
-.Cop-16 {
-    background-color: ivory;
-}
-
-.Cop-17 {
-    background-color: olive;
-}
-
-.Cop-18 {
-    background-color: orchid;
-}
-
-.Cop-19 {
-    background-color: orange;
-}
-
-.Cop-20 {
-    background-color: palegoldenrod;
-}
-
-.Cop-21 {
-    background-color: palegreen;
-}
-
-.Cop-22 {
-    background-color: paleturquoise;
-}
-
-.Cop-23 {
-    background-color: papayawhip;
-}
-
-.Cop-24 {
-    background-color: plum;
-}
-
-.Cop-25 {
-    background-color: pink;
-}
-
-.Cop-26 {
-    background-color: peachpuff;
-}
-
-.Cop-27 {
-    background-color: slateblue;
-}
-
-.Cop-28 {
-    background-color: lightgoldenrodyellow;
-}
-/*box 1 section > neonText class ---->*/
+.Cop-1 { background-color: red; }
+.Cop-2 { background-color: blue; }
+.Cop-3 { background-color: blueviolet; }
+.Cop-4 { background-color: green; }
+.Cop-5 { background-color: yellow; }
+.Cop-6 { background-color: violet; }
+.Cop-7 { background-color: wheat; }
+.Cop-8 { background-color: white; }
+.Cop-9 { background-color: teal; }
+.Cop-10 { background-color: tomato; }
+.Cop-11 { background-color: thistle; }
+.Cop-12 { background-color: turquoise; }
+.Cop-13 { background-color: yellowgreen; }
+.Cop-14 { background-color: indianred; }
+.Cop-15 { background-color: indigo; }
+.Cop-16 { background-color: ivory; }
+.Cop-17 { background-color: olive; }
+.Cop-18 { background-color: orchid; }
+.Cop-19 { background-color: orange; }
+.Cop-20 { background-color: palegoldenrod; }
+.Cop-21 { background-color: palegreen; }
+.Cop-22 { background-color: paleturquoise; }
+.Cop-23 { background-color: papayawhip; }
+.Cop-24 { background-color: plum; }
+.Cop-25 { background-color: pink; }
+.Cop-26 { background-color: peachpuff; }
+.Cop-27 { background-color: slateblue; }
+.Cop-28 { background-color: lightgoldenrodyellow; }
 
 .neonText {
     font-size: 40px;
@@ -330,15 +247,15 @@ section {
     font-family: cursive;
     height: 70%;
     width: 100%;
+    background-image: url();
+    margin-top: 200px;
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: aqua;
-    text-shadow: 2px 2px 4px currentColor;
     text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }
-
-/* different type font types codes*/
 
 .rubik-scribble-regular {
     font-family: "Rubik Scribble", system-ui;
@@ -352,111 +269,177 @@ section {
     font-style: normal;
 }
 
-.cursive {
-    font-family: cursive;
-}
+.cursive { font-family: cursive; }
 
-.Passionate{
-    font-family: 'Feeling Passionate', sans-serif;
-}
-
-.Dope{
-    font-family: 'Dope Crisis', sans-serif;
-}
-
-.Challing{
-    font-family: 'Challing', sans-serif;
-}
-
-.Kallissa{
-font-family: 'Kallissa Signature', sans-serif;
-}
-
-.Play{
-font-family: 'Play time', sans-serif;
-}
-
-.Better{
-font-family: 'BetterOutline', sans-serif;
-}
+.Passionate { font-family: 'Feeling Passionate', sans-serif; }
+.Dope { font-family: 'Dope Crisis', sans-serif; }
+.Challing { font-family: 'Challing', sans-serif; }
+.Kallissa { font-family: 'Kallissa Signature', sans-serif; }
+.Play { font-family: 'Play time', sans-serif; }
+.Better { font-family: 'BetterOutline', sans-serif; }
 
 footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10 20px;
+    padding: 10px 20px;
     background-color: #ffffff;
-  }
-  
-  footer .col {
+}
+
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 15px;
-  }
-  
-  footer img {
+}
+
+footer img {
     height: 60px;
     margin-bottom: 30px;
-  }
-  
-  footer h4 {
+}
+
+footer h4 {
     font-size: 16px;
     padding-bottom: 20px;
-  }
-  
-  footer p {
+}
+
+footer p {
     font-size: 14px;
-    margin: 0, 0, 8px, 0;
-  }
-  
-  footer a {
+    margin: 0 0 8px 0;
+}
+
+footer a {
     color: #222;
     font-size: 14px;
     margin-bottom: 2px;
     text-decoration: none;
-  }
-  
-  footer .follow {
+}
+
+footer .follow {
     margin-top: 20px;
-  }
-  
-  footer .follow i {
+}
+
+footer .follow i {
     color: #465b52;
     padding-right: 9px;
     cursor: pointer;
-  }
-  
-  #mobile {
+}
+
+#mobile {
     display: none;
     align-items: center;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-  }
-  .icon{
+}
+
+.icon {
     font-size: 30px;
     color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .icon i{
-    margin-left: 12px;
-  }
+}
 
-  @media (max-width: 600px) {
+.icon i {
+    margin-left: 12px;
+}
+
+@media (max-width: 1200px) {
+    section {
+        width: 100%; /* Stack sections on smaller screens */
+    }
+}
+
+@media (max-width: 900px) {
+
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #090909;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #navbar li a{
+        color: #ffffff;
+    }
+
+    #navbar i{
+        color: #ffffff;
+    }
+
+    #navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+
+    #navbar li {
+        padding: 10px 0; /* Add padding for better spacing */
+    }
+
+    #close {
+        position: absolute;
+        display: initial;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #mobile i {
+        color: #fff;
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    .textinput {
+        width: 100%; /* Full width input on smaller screens */
+    }
+
+    .submitIcon {
+        width: 100%; /* Full width submit button */
+    }
+
+    .fontstyle, .chooseColor {
+        height: auto; /* Allow these sections to grow */
+    }
+}
+
+@media (max-width: 600px) {
     #header {
         padding: 10px 15px;
     }
-    
+
     #header a img {
         height: 50px; /* Further reduced image size */
     }
@@ -467,6 +450,7 @@ footer {
 
     .main {
         flex-direction: column; /* Stack content vertically */
+
     }
 
     .searchtext {

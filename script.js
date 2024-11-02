@@ -54,6 +54,14 @@ styleBtn.forEach((val, idx) => {
     })
 })
 
+function openSidebar() {
+    document.getElementById("navbar").classList.add("active");
+}
+
+function closeSidebar() {
+    document.getElementById("navbar").classList.remove("active");
+}
+
 // color choosing js -->
 let colorBtn = document.querySelectorAll('.color-btn');
 let bgColor = document.querySelector('.Cop-1')
